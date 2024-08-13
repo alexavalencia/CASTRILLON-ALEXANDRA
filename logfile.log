@@ -1,0 +1,17 @@
+[2024-08-12 17:49:05] [ ERROR] [VeterinarioServiceH2Test:30] [creatTable] Data conversion error converting "'PERROS' (VETERINARIOS: ""ESPECIALIDAD"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO VETERINARIOS VALUES( DEFAULT, '1234567','JUAN CAMILO','AGUIRRE','PERROS'),
+( DEFAULT, '1234568','LUISA','GIRALDO','CABALLOS'),
+( DEFAULT, '1234569','NORA','VALENCIA','MARRONOS'),
+( DEFAULT, '1234510','JUAN','AGUIRRE','PERROS') [22018-230]
+[2024-08-12 17:50:34] [ INFO ] [VeterinarioDaoH2:42] [guardar] Veterinario guardado  Veterinario{id=5, numeroLicencia='123458', nombre='Camila', apellido='Valencia', especialidad='PERRO'}
+[2024-08-12 17:50:35] [ INFO ] [VeterinarioDaoH2:78] [obtenerPorId] Veterinario obtenido Veterinario{id=2, numeroLicencia='1234568', nombre='LUISA', apellido='GIRALDO', especialidad='CABALLOS'}
+[2024-08-12 17:50:35] [ INFO ] [VeterinarioDaoH2:111] [obtenerPorCampo] Veterinarios encontrados [Veterinario{id=5, numeroLicencia='123458', nombre='Camila', apellido='Valencia', especialidad='PERRO'}]
+[2024-08-12 17:50:35] [ INFO ] [VeterinarioDaoH2:142] [obtenerTodos] Veterinarios encontrados [Veterinario{id=1, numeroLicencia='1234567', nombre='JUAN CAMILO', apellido='AGUIRRE', especialidad='PERROS'}, Veterinario{id=2, numeroLicencia='1234568', nombre='LUISA', apellido='GIRALDO', especialidad='CABALLOS'}, Veterinario{id=3, numeroLicencia='1234569', nombre='NORA', apellido='VALENCIA', especialidad='MARRONOS'}, Veterinario{id=4, numeroLicencia='1234510', nombre='JUAN', apellido='AGUIRRE', especialidad='PERROS'}, Veterinario{id=5, numeroLicencia='123458', nombre='Camila', apellido='Valencia', especialidad='PERRO'}]
+[2024-08-13 17:48:51] [ INFO ] [OdontologoDaoH2:40] [guardar] Odontologo guardado  Odontologo{id=5, numeroMatricula='123458', nombre='Camila', apellido='Valencia'}
+[2024-08-13 17:48:51] [ INFO ] [OdontologoDaoH2:76] [obtenerPorId] Odontologo obtenido Odontologo{id=2, numeroMatricula='1234568', nombre='LUISA', apellido='GIRALDO'}
+[2024-08-13 17:48:51] [ INFO ] [OdontologoDaoH2:109] [obtenerTodos] Lista de odontologos encontrados[Odontologo{id=1, numeroMatricula='1234567', nombre='JUAN CAMILO', apellido='AGUIRRE'}, Odontologo{id=2, numeroMatricula='1234568', nombre='LUISA', apellido='GIRALDO'}, Odontologo{id=3, numeroMatricula='1234569', nombre='NORA', apellido='VALENCIA'}, Odontologo{id=4, numeroMatricula='1234510', nombre='JUAN', apellido='AGUIRRE'}, Odontologo{id=5, numeroMatricula='123458', nombre='Camila', apellido='Valencia'}]
+[2024-08-13 17:48:58] [ INFO ] [OdontologoDaoMemoria:34] [guardar] Odontologo Guardado Odontologo{id=6, numeroMatricula='123458', nombre='Camila', apellido='Valencia'}
+[2024-08-13 17:48:58] [ INFO ] [OdontologoDaoMemoria:42] [obtenerPorId] Odontologo encontrado Odontologo{id=2, numeroMatricula='123452', nombre='Juan', apellido='Ortiz'}
+[2024-08-13 17:48:58] [ INFO ] [OdontologoDaoMemoria:52] [obtenerTodos] Odontologos encontrado [Odontologo{id=1, numeroMatricula='123451', nombre='Camila', apellido='Valencia'}, Odontologo{id=2, numeroMatricula='123452', nombre='Juan', apellido='Ortiz'}, Odontologo{id=3, numeroMatricula='123453', nombre='Luisa', apellido='Aguirre'}, Odontologo{id=4, numeroMatricula='123454', nombre='Felipe', apellido='Mesa'}, Odontologo{id=5, numeroMatricula='123455', nombre='Marlon', apellido='Giraldo'}]
